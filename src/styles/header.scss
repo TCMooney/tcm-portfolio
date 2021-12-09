@@ -1,0 +1,21 @@
+.header-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  width: 100vw;
+  .head-shot {
+    border-radius: 100px;
+  }
+  .name {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 30px;
+  }
+  .title-location {
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,33 @@
+.projects-wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: $off-white;
+  color: $dark-gray;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  .cards-wrapper {
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 30px;
+  }
+
+  .portfolio-card {
+    border-radius: 6px;
+    box-shadow: 7px 10px 20px 9px rgba(0, 0, 0, 0.66);
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+  }
+}
+
+.divider {
+  width: 80vw;
+  height: 1px;
+  border-bottom: 1px solid #656567;
+  display: flex;
+}

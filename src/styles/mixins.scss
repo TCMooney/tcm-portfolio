@@ -1,0 +1,9 @@
+@mixin input {
+  border: none;
+  border-bottom: 1px solid black;
+  width: 300px;
+  font-size: 23px;
+  &:focus {
+    outline: none;
+  }
+}

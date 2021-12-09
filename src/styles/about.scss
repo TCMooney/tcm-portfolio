@@ -1,0 +1,15 @@
+.about-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $off-white;
+  color: $dark-gray;
+  max-width: 100%;
+  width: 100vw;
+  min-height: 150px;
+  height: auto;
+}
+
+.about {
+  font-size: 20px;
+}

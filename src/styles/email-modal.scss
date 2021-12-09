@@ -1,0 +1,37 @@
+.email-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  .modal-top-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 40px;
+    .email-input {
+      @include input;
+    }
+  }
+  .email-text {
+    height: 350px;
+    font-size: 20px;
+    resize: none;
+    margin-bottom: 18px;
+    &:focus {
+      outline: none;
+    }
+  }
+  .send-email {
+    font-size: 25px;
+    border: none;
+    width: 140px;
+    align-self: center;
+    background-color: $dark-gray;
+    color: $off-white;
+    transition: 0.5s ease-in-out;
+    &:hover {
+      cursor: pointer;
+      background-color: rgb(63, 62, 62);
+    }
+  }
+}
